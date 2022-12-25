@@ -11,7 +11,7 @@ int main() {
 
 	cout << " Please enter 8 numbers to store them in an array \n";
 
-	// Loop to check insert array numbers
+	// Loop to insert array numbers
 
 	for (int i = 0; i <= 7; i++) {
 
@@ -21,7 +21,7 @@ int main() {
 
 
 	}
-
+        // Loop to see if the user wanted to enter another sum
 	do {
 		cout << " Please enter the expected sum of array elemnts: ";
 
