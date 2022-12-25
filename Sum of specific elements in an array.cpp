@@ -6,7 +6,7 @@ void check(int arr[], int sum, int size);
 
 int main() {
 
-	int sum, size, arr[] = { 1 };
+	int sum, size, arr[] = { 0 };
         string choice;
 
 	cout << " Please enter the size of the array you want: ";
