@@ -2,18 +2,22 @@
 
 using namespace std;
 
-void check(int arr[], int sum);
+void check(int arr[], int sum, int size);
 
 int main() {
 
-	int arr[8], sum;
-	string choice;
+	int sum, size, arr[] = { 1 };
+        string choice;
 
-	cout << " Please enter 8 numbers to store them in an array \n";
+	cout << " Please enter the size of the array you want: ";
+	
+	cin >> size;
 
-	// Loop to insert array numbers
+	cout << " Please enter " << size << " numbers to store them in an array \n";
 
-	for (int i = 0; i <= 7; i++) {
+	// Loop to check insert array numbers
+
+	for (int i = 0; i <= (size - 1); i++) {
 
 		cout << "Number " << i << " is: ";
 
@@ -21,13 +25,13 @@ int main() {
 
 
 	}
-        // Loop to see if the user wanted to enter another sum
+
 	do {
 		cout << " Please enter the expected sum of array elemnts: ";
 
 		cin >> sum;
 
-		check(arr, sum);
+		check(arr, sum, size);
 
 		cout << " Do you want to check again? Enter ('y' for Yes or 'n' for No)";
 
@@ -43,14 +47,14 @@ int main() {
 }
 
 
-void check(int arr[], int sum)
+void check(int arr[], int sum, int size)
 {
 	//Nested loop to check if the sum wanted can be obtained from the array
 	int csum = 0;
 
-	for (int i = 0; i <= 7; i++) {
+	for (int i = 0; i <= (size - 1); i++) {
 
-		for (int j = (i + 1); j < 8; j++) {
+		for (int j = (i + 1); j < size; j++) {
 
 			csum = arr[i] + arr[j];
 
