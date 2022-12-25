@@ -27,13 +27,5 @@ int main() {
 	info.close();
 
 
-
-
-
-
-
-
-
-
 	return 0;
 }
