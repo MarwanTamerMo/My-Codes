@@ -13,6 +13,5 @@ int main() {
 	cin >> n >> l >> c >> f >> d;
 	cout << n << endl << l << endl << c << endl << f << endl << d;
 
-
 	return 0;
 }
