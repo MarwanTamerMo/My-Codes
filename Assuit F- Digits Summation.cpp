@@ -8,8 +8,8 @@ int main()
 
 	cin >> n1>>n2;
 
-
 	cout << (n1 % 10) + (n2 % 10);
 
+	return 0;
 }
 
