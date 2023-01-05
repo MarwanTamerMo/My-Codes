@@ -1,10 +1,10 @@
 #include <iostream>
-#include <iomanip>
-#include <cmath>
+#include <iomanip> //To use setprecision() function to specify how many floating points (Decimal points) to show in the decimal part
+#include <cmath>   // To use pow() function
 
 using namespace std;
 
-#define PI 3.141592653
+#define PI 3.141592653 // Just an add-on from me
 
 int main(){
 
