@@ -43,5 +43,5 @@ void sort1(int arr[3]) {
 		cout << arr[i] << endl;
 
 	}
-
+	
 }  
