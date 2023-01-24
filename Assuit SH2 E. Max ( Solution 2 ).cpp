@@ -14,7 +14,7 @@ int main() {
 		cin >> arr[i];
 	}
 
-	// Declaring a pointer to store the adress of the return of max_element()
+	// Declaring a pointer to carry the adress of the return of max_element()
 
 	// max_element function iterates the array elements then find the max number
 	int* max = max_element(arr, arr + size);
