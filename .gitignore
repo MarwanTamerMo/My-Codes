@@ -1,0 +1,11 @@
+
+*.sqlite
+.vs/VSWorkspaceState.json
+.vs/ProjectSettings.json
+.vs/My-Codes/v17/ipch/AutoPCH/cabb2896c9bc6e6a/H. SORTING.ipch
+*.vsidx
+*.db-shm
+.vs/My-Codes/v17/.wsuo
+*.db-wal
+*.opendb
+*.db
